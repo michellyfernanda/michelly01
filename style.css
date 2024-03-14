@@ -20,5 +20,35 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center
-    max-width
+    align-intems:center;
+    max-width: 1200px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100;
+    font-size: 32;
+}
+
+.titulo-principal span{
+    color: var(--verde);
+}
+
+.botao{
+    font-family: "Crakra Petch",sans-serif
+    background-color: var(var(--botao-inativo)
+    color:var(var(--branco);
+    display: flex;
+    justiy-content: center;
+    pading: 1em;
+    font-size 18px;
+    aling-items:center;
+    widht:100%
+    border-bottom: 4px solid var(--botao-ativo);
+
+    
+    
+
     
