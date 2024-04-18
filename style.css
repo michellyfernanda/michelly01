@@ -1,54 +1,28 @@
-@import url(htts://fontes.googleapi.com/css2family=Chakra+petch:wgt@400;700)
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
-    --cor-de-fundo: #1e1e1e;
-    --verde: #6fff57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3a375e;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
-}    
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
 
 body{
-    background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Chakra Petch', sans-serif;
-} 
-
-
-.conteudo-principa{
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-    align-intems:center;
-    max-width: 1200px;
-    width:100%;
-    margin: 0 auto;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
 }
 
 .titulo-principal{
-    text-align: left;
-    width: 100;
-    font-size: 32;
+    font-family: var(--roboto-mono);
+    font-size: 32px;
 }
 
-.titulo-principal span{
-    color: var(--verde);
+.titulo-secundario{
+    font-size: 24px;
 }
 
-.botao{
-    font-family: "Crakra Petch",sans-serif
-    background-color: var(var(--botao-inativo)
-    color:var(var(--branco);
-    display: flex;
-    justiy-content: center;
-    pading: 1em;
-    font-size 18px;
-    aling-items:center;
-    widht:100%
-    border-bottom: 4px solid var(--botao-ativo);
 
-    
-    
-
-    
